@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script>
+     var no_of_tickets;
+       const ticket_cost=150;
+      var total_cost;
+     no_of_tickets=parseInt(window.prompt("enter radius","0"));
+     if(no_of_tickets>=6 && tickets<=0)
+       alert("Booking is not possible");
+     else if(no_of_tickets>=1 &&no_of_tickets<=2)
+            {
+             total_cost=ticket_cost*no_of_tickets;
+             document.write(total_cost);
+             document.write("<br>");
+            }
+    else
+    {
+    total_cost=ticket_cost*no_of_tickets;
+    //print
+    document.write(total_cost);
+    document.write("<br>");
+    discount=total_cost*0.05;
+    document.write(discount);
+    document.write("<br>");
+    amount_to_paid=total_cost-discount;
+    document.write(amount_to_paid);
+    }   
+     </script>
+  </head>
+</html>
